@@ -3089,7 +3089,7 @@ declare module 'vscode' {
 		 * @param detail Details for the symbol.
 		 * @param kind The kind of the symbol.
 		 * @param range The full range of the symbol.
-		 * @param selectionRange The range that should be reveal.
+		 * @param selectionRange The range that should be revealed.
 		 */
 		constructor(name: string, detail: string, kind: SymbolKind, range: Range, selectionRange: Range);
 	}
